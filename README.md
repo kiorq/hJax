@@ -1,4 +1,4 @@
-# hJax
+# hJax :)
 A light-weight plugin to dynamically update the web document by based on ajax request using html.
 
 ### Basics:
