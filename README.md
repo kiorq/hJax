@@ -92,3 +92,6 @@ Incase where you need to update multiple places on the document for one request,
 #### 6. CDNS
 1. https://rawgit.com/kiorq/hJax/master/hJax.min.js
 2. https://rawgit.com/kiorq/hJax/master/hJax.js
+
+#### 7. Excuse Typos
+Thank You.
