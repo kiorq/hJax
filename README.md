@@ -1,6 +1,8 @@
 # hJax :)
 A light-weight plugin to dynamically update the web document by based on ajax request using html.
 
+![Example](http://g.recordit.co/MBhyspijrD.gif)
+
 ### Basics:
 ##### 1. hJax Status Wrapper.
 First we need to make a wrapper and set some data attributes. This will hold all the statuses we need.
