@@ -85,3 +85,8 @@ Incase where you need to update multiple places on the document for one request,
 <!-- will update both status 1 and status 2 -->
 <a data-hjax-target="example_status" href="http://example.com/test">Update status</a>
 ```
+
+
+#### 6. CDNS
+1. https://rawgit.com/kiorq/hJax/master/hJax.min.js
+2. https://rawgit.com/kiorq/hJax/master/hJax.js
