@@ -1,0 +1,27 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div data-hjax="fp_status" data-hjax-status-initial="default">
+            <div data-hjax-status="default">
+                <b>Default Status: Click Make Request button to update this status</b>
+            </div>
+            <div data-hjax-status="submitted">
+                <b style="color: gray">Making Request</b>
+            </div>
+            <div data-hjax-status="done">
+                <b style="color: green">Request was succesfull</b>
+            </div>
+            <div data-hjax-status="failure">
+                <b style="color: red">Request failed</b>
+            </div>
+        </div>
+
+        <hr />
+
+        <a data-hjax-target="fp_status" href="http://example.com/test">Make Request</a>
+        
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+        <script src="hjax.min.js"></script>
+    </body>
+</html>
