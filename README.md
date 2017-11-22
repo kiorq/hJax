@@ -7,7 +7,7 @@ A light-weight plugin to dynamically update the web document by based on ajax re
 ##### 1. hJax Status Wrapper.
 First we need to make a wrapper and set some data attributes. This will hold all the statuses we need.
 
-```
+```html
 <div data-hjax="example_status" data-hjax-status-initial="default">
     ...
 </div>
@@ -21,7 +21,7 @@ What going on here:
 ##### 2. Statuses.
 Inside this wrapper, we can set different status, and hJax will display the appropriate content based on the status is currently set.
 
-```
+```html
 <div data-hjax="example_status" data-hjax-status-initial="default">
     <!-- Default Status -->
     <div data-hjax-status="default">
@@ -49,7 +49,7 @@ Inside this wrapper, we can set different status, and hJax will display the appr
 
 Since we have `data-hjax-initial-status` set the `default`, when the document loads, hJax will only display the default status `data-hjax-status="default"` and hide the rest.
 
-```
+```html
 <div data-hjax-status="default">
     <b>This is the default status</b>
 </div>
@@ -58,7 +58,7 @@ Since we have `data-hjax-initial-status` set the `default`, when the document lo
 #### 4. hJax link
 A hJax link triggers an ajax requests and updates the targeted hJax status with the results. This can  be anywhere on the document. Inside the hJax status wrapper out outside.
 
-```
+```html
 <a data-hjax-target="example_status" href="http://example.com/test">Update status</a>
 ```
 
@@ -73,7 +73,7 @@ Psuedocode goes like this
 
 #### 5. Tips
 Incase where you need to update multiple places on the document for one request, you can set multiple hJax status wrappers with same name.
-```
+```html
 <!-- status 1 -->
 <div data-hjax="example_status" data-hjax-status-initial="default">
     ...
